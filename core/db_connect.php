@@ -1,21 +1,15 @@
 <?php
 session_start();
 
-/**
- * Voor de MAC gebruikers;
- */
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "root";
-$dbname = "webdev_base";
+
 
 /**
  * Voor de Windows gebruikers;
  */
-// $dbhost = "localhost";
-// $dbuser = "root";
-// $dbpass = "";
-// $dbname = "webdev_base";
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "";
+$dbname = "pinterestshop";
 
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
